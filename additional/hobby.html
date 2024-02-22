@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #outer{
+                justify-content: center;
+            }
+            #h2_wrapper{
+                text-align: center;
+                margin: 10px;
+            }
+
+            .hobby-boxes{
+                display: flex;
+                justify-content: center;
+            }
+
+            .hobby-boxes img{
+                margin: 10px;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+
+            #bicycle
+            {
+                margin: 0 0 10px;
+                position: relative;
+                left: 50px;
+                z-index: 0;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="outer" >
+            <div id="h2_wrapper">
+                <h2>Ось вам картинки велосипеда й пиво!</h2>
+            </div>
+            <div class="hobby-boxes">
+                <img id="bicycle" src="../assets/images/завантаження.jpg">
+                <img style="z-index: 1;" src="../assets/images/завантаження (1).jpg">
+            </div>
+        </div>
+    </body>
+</html>
